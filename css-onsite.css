@@ -1,0 +1,199 @@
+
+h1 {
+   font-family: "Lobster", Sans-serif;
+    color: rgb(12, 12, 12);
+   
+    letter-spacing: 1.5px;
+    margin-bottom: 0px;
+    margin-top:5px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+p {
+  font-family: "Lobster", Sans-serif;
+   color: rgb(12, 12, 12);
+  
+   letter-spacing: 1px;
+   margin-bottom: 0px;
+   margin-top:5px;
+   text-align: center;
+   font-size: 30px;
+   letter-spacing: 2px;
+}
+.button {
+  background-color: #c03491;
+  /* Green */
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-align: center;
+  float: center;
+  margin: 0 auto;
+}
+.alert {
+  padding: 20px;
+  background-color: #28db28;
+  color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  height:30px;
+  border: 3px black;
+  width: 30px;
+  font-size: 10px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+  height:30px;
+    width: 30px;
+}
+#burger{
+  height:20%;
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 40%;
+}
+.menu{
+  
+    font-family: "Lobster", Sans-serif;
+     color: rgb(12, 12, 12);
+     font-size: 40px;
+     letter-spacing: 2px;
+}
+#box1 {
+    display: block;
+    grid-template-columns: auto;
+    height:200%;
+    width: 100%;
+    background-color: #fdefdb;
+    
+    padding: 5px;
+    text-align: center;
+    font-family: serif;
+    font-size: xx-large;
+    float:center;
+    border: 5px solid rgb(7, 7, 7);
+}
+
+#box2{
+    display: block;
+    grid-template-columns: auto;
+    height:300px;
+    width: 60%;
+    background-color: #dff1f3;
+    margin: 0 auto;
+    padding: 5px;
+    text-align:left ;
+    font-family: "Lobster", Sans-serif;
+    font-size: xx-large;
+    float:center;
+    border: 5px solid rgb(7, 7, 7);
+}
+ 
+
+/*.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {opacity: 1}*/
+  
+  
+      .burger-component{
+        height:10px;
+        width:200px;
+        border-radius:4px;
+      }
+     
+      #one.hide {
+        display: none;
+      }  
+      #top-bun{
+        height:80px;
+        background-color:peru;
+        border-top-right-radius:80px;
+        border-top-left-radius:80px;
+        border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;
+        border-top: 9px solid #906725;
+      }
+      #top-lettuce{
+        border-radius: 8px;
+background-color: #80D041;
+height: 8px;
+border-bottom: 3px solid #0F6D12;
+      }
+     
+      #tomato{
+        background-color:red;
+        border-radius: 10px;
+background-color: #F13233;
+height: 15px;
+border-bottom: 5px solid #940C0E;
+      }
+      #cheese{
+        background-color: #E8EA02;
+border-radius: 10px;
+height: 15px;
+border-bottom: 5px solid #EAB902;
+        
+      }
+     #onion {
+        border-radius: 8px;
+        background-color: #B95381;
+        height: 13px;
+        border-bottom: 4px solid #7E1846;
+        }
+      #bacon{
+        border-radius: 15px;
+background-color: #603102;
+height: 20px;
+border-bottom: 10px solid #402408;
+      }
+      #bottom-lettuce{
+        border-radius: 8px;
+background-color: #80D041;
+height: 8px;
+border-bottom: 3px solid #0F6D12;
+      }
+      #bottom-bun{
+        height:30px;
+        background-color:peru;
+        border-top-right-radius:5px;
+        border-top-left-radius:5px;
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius:20px;
+        border-bottom: 5px solid #724D12;
+      }
+      .price {
+        display: grid;
+        grid-template-columns: auto;
+        height: 100px;
+        width: 120px;
+        background-color: #dff1f3;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+        font-family: serif;
+        font-size: xx-large;
+        float:right;
+        margin-right: 10px;
+        border: 4px solid black;}
+      
+      
+
